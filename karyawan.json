@@ -1,74 +1,146 @@
 [
   {
     "id": 1,
+    "nik": "DEMO-000001",
     "nama": "Rina Wijaya",
     "jabatan": "Direktur",
+    "role_sistem": "direktur",
+    "level_jabatan": 4,
     "divisi": "Manajemen",
     "atasan_id": null,
+    "alamat": "Jl. Contoh No. 1, Jakarta",
+    "no_hp": "08XX-XXXX-0001",
     "cuti_jatah": 12,
-    "cuti_terpakai": 2
+    "cuti_terpakai": 2,
+    "absensi_bulanan": {
+      "2026-10": {"sakit": 0, "izin": 0, "cuti": 0, "alpa": 0},
+      "2026-09": {"sakit": 0, "izin": 1, "cuti": 0, "alpa": 0}
+    }
   },
   {
     "id": 2,
+    "nik": "DEMO-000002",
     "nama": "Budi Santoso",
     "jabatan": "Manajer IT",
+    "role_sistem": "manager",
+    "level_jabatan": 3,
     "divisi": "IT",
     "atasan_id": 1,
+    "alamat": "Jl. Contoh No. 2, Jakarta",
+    "no_hp": "08XX-XXXX-0002",
     "cuti_jatah": 12,
-    "cuti_terpakai": 5
+    "cuti_terpakai": 5,
+    "absensi_bulanan": {
+      "2026-10": {"sakit": 0, "izin": 1, "cuti": 0, "alpa": 0},
+      "2026-09": {"sakit": 0, "izin": 0, "cuti": 1, "alpa": 0}
+    }
   },
   {
     "id": 3,
+    "nik": "DEMO-000003",
     "nama": "Sari Dewi",
     "jabatan": "Developer",
+    "role_sistem": "pegawai",
+    "level_jabatan": 1,
     "divisi": "IT",
-    "atasan_id": 2,
+    "atasan_id": 4,
+    "alamat": "Jl. Contoh No. 3, Jakarta",
+    "no_hp": "08XX-XXXX-0003",
     "cuti_jatah": 12,
-    "cuti_terpakai": 3
+    "cuti_terpakai": 3,
+    "absensi_bulanan": {
+      "2026-10": {"sakit": 3, "izin": 0, "cuti": 1, "alpa": 0},
+      "2026-09": {"sakit": 2, "izin": 1, "cuti": 0, "alpa": 0}
+    }
   },
   {
     "id": 4,
+    "nik": "DEMO-000004",
     "nama": "Agus Pratama",
-    "jabatan": "Developer",
+    "jabatan": "Team Leader IT",
+    "role_sistem": "leader",
+    "level_jabatan": 2,
     "divisi": "IT",
     "atasan_id": 2,
+    "alamat": "Jl. Contoh No. 4, Jakarta",
+    "no_hp": "08XX-XXXX-0004",
     "cuti_jatah": 12,
-    "cuti_terpakai": 8
+    "cuti_terpakai": 8,
+    "absensi_bulanan": {
+      "2026-10": {"sakit": 0, "izin": 1, "cuti": 0, "alpa": 0},
+      "2026-09": {"sakit": 0, "izin": 0, "cuti": 0, "alpa": 0}
+    }
   },
   {
     "id": 5,
+    "nik": "DEMO-000005",
     "nama": "Dewi Lestari",
     "jabatan": "Manajer HR",
+    "role_sistem": "hrd",
+    "level_jabatan": 3,
     "divisi": "HR",
     "atasan_id": 1,
+    "alamat": "Jl. Contoh No. 5, Jakarta",
+    "no_hp": "08XX-XXXX-0005",
     "cuti_jatah": 12,
-    "cuti_terpakai": 4
+    "cuti_terpakai": 4,
+    "absensi_bulanan": {
+      "2026-10": {"sakit": 1, "izin": 0, "cuti": 0, "alpa": 0},
+      "2026-09": {"sakit": 0, "izin": 2, "cuti": 0, "alpa": 0}
+    }
   },
   {
     "id": 6,
+    "nik": "DEMO-000006",
     "nama": "Andi Kurniawan",
     "jabatan": "Staf HR",
+    "role_sistem": "pegawai",
+    "level_jabatan": 1,
     "divisi": "HR",
     "atasan_id": 5,
+    "alamat": "Jl. Contoh No. 6, Jakarta",
+    "no_hp": "08XX-XXXX-0006",
     "cuti_jatah": 12,
-    "cuti_terpakai": 1
+    "cuti_terpakai": 1,
+    "absensi_bulanan": {
+      "2026-10": {"sakit": 0, "izin": 2, "cuti": 0, "alpa": 0},
+      "2026-09": {"sakit": 1, "izin": 0, "cuti": 0, "alpa": 0}
+    }
   },
   {
     "id": 7,
+    "nik": "DEMO-000007",
     "nama": "Maya Putri",
     "jabatan": "Manajer Keuangan",
+    "role_sistem": "manager",
+    "level_jabatan": 3,
     "divisi": "Keuangan",
     "atasan_id": 1,
+    "alamat": "Jl. Contoh No. 7, Jakarta",
+    "no_hp": "08XX-XXXX-0007",
     "cuti_jatah": 12,
-    "cuti_terpakai": 6
+    "cuti_terpakai": 6,
+    "absensi_bulanan": {
+      "2026-10": {"sakit": 0, "izin": 0, "cuti": 1, "alpa": 0},
+      "2026-09": {"sakit": 0, "izin": 0, "cuti": 0, "alpa": 1}
+    }
   },
   {
     "id": 8,
+    "nik": "DEMO-000008",
     "nama": "Eko Prasetyo",
     "jabatan": "Staf Keuangan",
+    "role_sistem": "pegawai",
+    "level_jabatan": 1,
     "divisi": "Keuangan",
     "atasan_id": 7,
+    "alamat": "Jl. Contoh No. 8, Jakarta",
+    "no_hp": "08XX-XXXX-0008",
     "cuti_jatah": 12,
-    "cuti_terpakai": 10
+    "cuti_terpakai": 10,
+    "absensi_bulanan": {
+      "2026-10": {"sakit": 2, "izin": 0, "cuti": 0, "alpa": 1},
+      "2026-09": {"sakit": 0, "izin": 1, "cuti": 0, "alpa": 0}
+    }
   }
 ]
