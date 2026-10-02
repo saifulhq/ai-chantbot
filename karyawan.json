@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nama": "Rina Wijaya",
+    "jabatan": "Direktur",
+    "divisi": "Manajemen",
+    "atasan_id": null,
+    "cuti_jatah": 12,
+    "cuti_terpakai": 2
+  },
+  {
+    "id": 2,
+    "nama": "Budi Santoso",
+    "jabatan": "Manajer IT",
+    "divisi": "IT",
+    "atasan_id": 1,
+    "cuti_jatah": 12,
+    "cuti_terpakai": 5
+  },
+  {
+    "id": 3,
+    "nama": "Sari Dewi",
+    "jabatan": "Developer",
+    "divisi": "IT",
+    "atasan_id": 2,
+    "cuti_jatah": 12,
+    "cuti_terpakai": 3
+  },
+  {
+    "id": 4,
+    "nama": "Agus Pratama",
+    "jabatan": "Developer",
+    "divisi": "IT",
+    "atasan_id": 2,
+    "cuti_jatah": 12,
+    "cuti_terpakai": 8
+  },
+  {
+    "id": 5,
+    "nama": "Dewi Lestari",
+    "jabatan": "Manajer HR",
+    "divisi": "HR",
+    "atasan_id": 1,
+    "cuti_jatah": 12,
+    "cuti_terpakai": 4
+  },
+  {
+    "id": 6,
+    "nama": "Andi Kurniawan",
+    "jabatan": "Staf HR",
+    "divisi": "HR",
+    "atasan_id": 5,
+    "cuti_jatah": 12,
+    "cuti_terpakai": 1
+  },
+  {
+    "id": 7,
+    "nama": "Maya Putri",
+    "jabatan": "Manajer Keuangan",
+    "divisi": "Keuangan",
+    "atasan_id": 1,
+    "cuti_jatah": 12,
+    "cuti_terpakai": 6
+  },
+  {
+    "id": 8,
+    "nama": "Eko Prasetyo",
+    "jabatan": "Staf Keuangan",
+    "divisi": "Keuangan",
+    "atasan_id": 7,
+    "cuti_jatah": 12,
+    "cuti_terpakai": 10
+  }
+]
